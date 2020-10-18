@@ -4,6 +4,8 @@ type Props = {
   title: String
 }
 
+const foo = "bla";
+
 export default function Home({ title = "React Avançado" }: Props) {
   return (
     <div className="container">
